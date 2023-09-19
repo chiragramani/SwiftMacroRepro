@@ -4,6 +4,8 @@ Context: https://forums.swift.org/t/how-to-import-macros-using-methods-other-tha
 
 ## Repro steps
 
+Xcode 15
+
 ### Part A (Macro Plugin)
 1. Open swift-macro-examples-main/MacroExamples.xcodeproj.
 2. Build the MacroExamples scheme.
