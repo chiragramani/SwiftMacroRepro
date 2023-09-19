@@ -47,3 +47,7 @@ Note: I have seen indexing not picking up the latest modification to OTHER SWIFT
 **Issues:**
 1. Syntax highlight for #stringify is not present.
 2. `Expand Macro` option is not shown but the `Inline Macro` option is shown(and works as expected).
+
+
+<img width="775" alt="Screenshot 2023-09-19 at 11 12 20 AM" src="https://github.com/chiragramani/SwiftMacroRepro/assets/11925399/d0ba74cc-f932-4bdf-8ebc-83a197cc2935">
+
