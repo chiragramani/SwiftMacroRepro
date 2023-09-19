@@ -8,8 +8,9 @@ Context: https://forums.swift.org/t/how-to-import-macros-using-methods-other-tha
 1. Open swift-macro-examples-main/MacroExamples.xcodeproj.
 2. Build the MacroExamples scheme.
 3. Once the build is completed, go to the build details page and find the compiler invocation for main.swift.
-4. Find the plugin executable path. `-load-executable-path`
+4. The compiler invocation will have the plugin executable path after this flag `-load-executable-path`
 
+It will look something like this:
 ```
 -load-plugin-executable
 /Users/chirag.ramani/Library/Developer/Xcode/DerivedData/swift-macro-examples-main-csywlwgecxhauhdfxsutsqgbukkc/Build/Products/Debug/MacroExamplesPlugin\#MacroExamplesPlugin
@@ -20,8 +21,6 @@ It will look something like this:
 ```
 /Users/chirag.ramani/Library/Developer/Xcode/DerivedData/swift-macro-examples-main-csywlwgecxhauhdfxsutsqgbukkc/Build/Intermediates.noindex/MacroExamples.build/Debug/MacroExamplesLib.build/Objects-normal/arm64/MacroExamplesLib.swiftmodule
 ```
-
-2. Open the MacroClient project and update the OTHER SWIFT FLAGS as follows:
 
 ### Part B (Macro Client)
 
